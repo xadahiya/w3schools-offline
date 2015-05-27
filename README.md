@@ -34,7 +34,7 @@ Instructions-
     
     and change the following line to what you want:
 
-    DocumentRoot /var/www/W3schools
+    DocumentRoot /var/www/html to /var/www/W3schools
   
   Also edit apache2.conf to do so run 
     sudo gedit /etc/apache2/apache2.conf
