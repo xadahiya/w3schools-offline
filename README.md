@@ -46,7 +46,7 @@ Instructions-
 
 
   Now inside Nautilus, browse to /var/www/ directory and create a new folder called “W3schools”
-2.Download and extract the zip file from the link below:
+  2.Download and extract the zip file from the link below:
 
 
 Then come the final steps where we enable the site and restart Apache one last time:
