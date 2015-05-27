@@ -7,7 +7,7 @@ Instructions-
 1. You need to setup an Apache server as w3schools use #asp engine, which cannot be rendered directly by the browser.
 
 # Creating server for ASP.NET applications in Ubuntu using Modmono
-  ModMono is an Apache module which provides ASP.NET support for Apache web server. We will be using Apache as an          alternative for Microsoft’s IIS in Windows.
+  ModMono is an Apache module which provides ASP.NET support for Apache web server. We will be using Apache as an        alternative for Microsoft’s IIS in Windows.
   
   # Installation
   Here is a nice tutorial to setting up the server, just follow its #installation part          https://ubuntuexperiment.wordpress.com/2009/01/29/running-aspnet-applications-in-ubuntu-using-modmono/
