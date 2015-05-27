@@ -4,6 +4,7 @@ W3Schools is a web developer information website, with tutorials and references 
 HTML, CSS, JavaScript, PHP, SQL, and JQuery. The site provides a reference manual covering many aspects of web programming.
 
 Instructions-
+
 1. You need to setup an Apache server as w3schools use #asp engine, which cannot be rendered directly by the browser.
 
 # Creating server for ASP.NET applications in Ubuntu using Modmono
@@ -17,7 +18,7 @@ Instructions-
   
   sudo nautilus /etc/apache2/sites-available/ 
   
-     This will open the directory in Nautilus. Now right-click inside the window and create a new empty file and name       it “W3schools.conf”. Then open the file using a text editor and paste the following text inside it, save and           close.
+  This will open the directory in Nautilus. Now right-click inside the window and create a new empty file and name it “W3schools.conf”. Then open the file using a text editor and paste the following text inside it, save and close.
   
     Alias /W3schools "/var/www/W3schools"
     AddMonoApplications default "/W3schools:/var/www/W3schools"
