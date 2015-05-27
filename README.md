@@ -32,7 +32,7 @@ Instructions-
     
     sudo gedit /etc/apache2/sites-available/000-default.conf
     
-    and change the following line to what you want:
+  and change the following line to what you want:
 
     DocumentRoot /var/www/html to /var/www/W3schools
   
