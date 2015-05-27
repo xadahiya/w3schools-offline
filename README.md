@@ -46,7 +46,7 @@ Instructions-
       Require all granted
       </Directory>
       
-    and change /var/www/html to your preferred directory( /var/www/W3schools )
+ and change /var/www/html to your preferred directory( /var/www/W3schools )
 
 
   Now inside Nautilus, browse to /var/www/ directory and create a new folder called “W3schools”
