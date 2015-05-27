@@ -45,6 +45,7 @@ Instructions-
       AllowOverride None
       Require all granted
       </Directory>
+      
     and change /var/www/html to your preferred directory( /var/www/W3schools )
 
 
@@ -59,7 +60,7 @@ Then come the final steps where we enable the site and restart Apache one last t
     sudo /etc/init.d/apache2 restart
     
 That’s it! Now open your web browser and point to:
-http://localhost/W3schools/inndex.html
+http://localhost/W3schools/index.html
     
 
 #Credits - W3schools.com
