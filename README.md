@@ -28,7 +28,9 @@ Instructions-
     </Location>
     
   You need to change the server root directory for W3schools to successfully work.
-    Run the command - sudo gedit /etc/apache2/sites-available/000-default.conf
+    Run the command 
+    
+    sudo gedit /etc/apache2/sites-available/000-default.conf
     and change the following line to what you want:
 
     DocumentRoot /var/www/W3schools
