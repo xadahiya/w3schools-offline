@@ -15,7 +15,8 @@ Instructions-
   # Adding the offline website
   We are going to create a site called W3schools. But first we need to create a configuration file for this site inside    the directory “etc/apache2/sites-available/”. To do this, execute the following command:
   
-  sudo nautilus /etc/apache2/sites-available/  
+  sudo nautilus /etc/apache2/sites-available/ 
+  
      This will open the directory in Nautilus. Now right-click inside the window and create a new empty file and name       it “W3schools.conf”. Then open the file using a text editor and paste the following text inside it, save and           close.
   
     Alias /W3schools "/var/www/W3schools"
@@ -51,6 +52,7 @@ Then come the final steps where we enable the site and restart Apache one last t
     a2ensite Ubuntu
     sudo /etc/init.d/apache2 restart
     
-That’s it! Now open your web browser and point to: http://localhost/W3schools/inndex.html
+That’s it! Now open your web browser and point to:
+http://localhost/W3schools/inndex.html
     
 
