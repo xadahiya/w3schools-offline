@@ -45,8 +45,8 @@ Instructions-
     and change /var/www/html to your preferred directory( /var/www/W3schools )
 
 
-Now inside Nautilus, browse to /var/www/ directory and create a new folder called “W3schools”.
-Download and extract the zip file from the link below:
+  Now inside Nautilus, browse to /var/www/ directory and create a new folder called “W3schools”
+2.Download and extract the zip file from the link below:
 
 
 Then come the final steps where we enable the site and restart Apache one last time:
