@@ -4,7 +4,7 @@
 W3Schools is a web developer information website, with tutorials and references relating to web development topics such as
 HTML, CSS, JavaScript, PHP, SQL, and JQuery. The site provides a reference manual covering many aspects of web programming.
 
-Instructions-
+# Ubuntu Instructions
 
 1. You need to setup an Apache server as w3schools use #asp engine, which cannot be rendered directly by the browser.
 
@@ -63,7 +63,7 @@ Then come the final steps where we enable the site and restart Apache one last t
     
 That’s it! Now open your web browser and point to:
 http://localhost/W3schools/index.html
-    
+
 #Windows instructions
   1.On the Start menu, click Settings and select Control Panel
   2.Double-click Add or Remove Programs
@@ -82,5 +82,6 @@ http://localhost/W3schools/index.html
   14. Save and exit
   15. Open the link in browser
       http://localhost/index.html
-#Enjoy!!!
+#Enjoy!!!    
+
 #Credits - W3schools.com
