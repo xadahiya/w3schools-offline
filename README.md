@@ -76,6 +76,7 @@ Install Internet Information Services (IIS)
 Look for a new folder called Inetpub on your hard drive( windows installation drive )
 
 Open the Inetpub folder, and find a folder named wwwroot
+
   7. Download and extract the following file
       https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view
   8. Copy the contents from www.w3schools.com folder to wwwroot folder ( just copy the contents of the folder not the folder)
@@ -86,7 +87,8 @@ Open the Inetpub folder, and find a folder named wwwroot
   13. Set File name extenstion to .asp and MIME type to text/html
   14. Save and exit
   15. Open the link in browser
-      http://localhost/index.html
+  http://localhost/index.html
+
 #Enjoy!!!    
 
 #Credits - W3schools.com
