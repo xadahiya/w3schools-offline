@@ -65,6 +65,8 @@ That’s it! Now open your web browser and point to:
 http://localhost/W3schools/index.html
 
 #Windows instructions
+
+#part 1
 On the Start menu, click Settings and select Control Panel
 
 Double-click Add or Remove Programs
@@ -77,6 +79,8 @@ Look for a new folder called Inetpub on your hard drive( windows installation dr
 
 Open the Inetpub folder, and find a folder named wwwroot
 
+#part 2
+
   7. Download and extract the following file
       https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view
   8. Copy the contents from www.w3schools.com folder to wwwroot folder ( just copy the contents of the folder not the folder)
@@ -87,7 +91,7 @@ Open the Inetpub folder, and find a folder named wwwroot
   13. Set File name extenstion to .asp and MIME type to text/html
   14. Save and exit
   15. Open the link in browser
-  http://localhost/index.html
+    http://localhost/index.html
 
 #Enjoy!!!    
 
