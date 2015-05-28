@@ -66,10 +66,15 @@ http://localhost/W3schools/index.html
 
 #Windows instructions
 On the Start menu, click Settings and select Control Panel
+
 Double-click Add or Remove Programs
+
 Click Add/Remove Windows Components
+
 Install Internet Information Services (IIS)
+
 Look for a new folder called Inetpub on your hard drive( windows installation drive )
+
 Open the Inetpub folder, and find a folder named wwwroot
   7. Download and extract the following file
       https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view
