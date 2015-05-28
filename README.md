@@ -53,6 +53,8 @@ Instructions-
   
 2.Download and extract the zip file from the link below:
 
+https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view?usp=sharing
+
 
 Then come the final steps where we enable the site and restart Apache one last time:
 
