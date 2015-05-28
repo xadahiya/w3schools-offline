@@ -83,15 +83,14 @@ Open the Inetpub folder, and find a folder named wwwroot
 
   7. Download and extract the following file
       https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view
-  8. Copy the contents from www.w3schools.com folder to wwwroot folder ( just copy the contents of the folder not the folder)
+  8. Copy the contents from the folder www.3schools.com to wwwroot folder ( just copy the contents of the folder not the folder)
   9. On the Start menu, find and open Internet Information Services (IIS)
   10. Find Default Web Site under sites on the left side
   11. Select the MIME type
   12. Add new from the right side
   13. Set File name extenstion to .asp and MIME type to text/html
   14. Save and exit
-  15. Open the link in browser
-    http://localhost/index.html
+  15. Open the link in browser - http://localhost/index.html
 
 #Enjoy!!!    
 
