@@ -90,7 +90,7 @@ Open the Inetpub folder, and find a folder named wwwroot
   12. Add new from the right side
   13. Set File name extenstion to .asp and MIME type to text/html
   14. Save and exit
-  15. Open the link in browser - http://localhost/index.html
+  15. That’s it! Now open your web browser and point to: http://localhost/index.html
 
 #Enjoy!!!    
 
