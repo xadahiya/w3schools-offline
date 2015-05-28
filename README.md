@@ -71,7 +71,8 @@ http://localhost/W3schools/index.html
   Install Internet Information Services (IIS)
   Look for a new folder called Inetpub on your hard drive( windows installation drive )
   Open the Inetpub folder, and find a folder named wwwroot
-  7. Download and extract the following file
+  
+7. Download and extract the following file
       https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view
   8. Copy the contents from www.w3schools.com folder to wwwroot folder ( just copy the contents of the folder not the folder)
   9. On the Start menu, find and open Internet Information Services (IIS)
