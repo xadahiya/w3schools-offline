@@ -6,9 +6,9 @@ HTML, CSS, JavaScript, PHP, SQL, and JQuery. The site provides a reference manua
 
 # Ubuntu Instructions
 
-1. You need to setup an Apache server as w3schools use #asp engine, which cannot be rendered directly by the browser.
+ You need to setup an Apache server as w3schools use #asp engine, which cannot be rendered directly by the browser.
 
-# Creating server for ASP.NET applications in Ubuntu using Modmono
+ Creating server for ASP.NET applications in Ubuntu using Modmono
   ModMono is an Apache module which provides ASP.NET support for Apache web server. We will be using Apache as an        alternative for Microsoft’s IIS in Windows.
   
   # Installation
@@ -65,12 +65,12 @@ That’s it! Now open your web browser and point to:
 http://localhost/W3schools/index.html
 
 #Windows instructions
-  1.On the Start menu, click Settings and select Control Panel
-  2.Double-click Add or Remove Programs
-  3.Click Add/Remove Windows Components
-  4.Install Internet Information Services (IIS)
-  5.Look for a new folder called Inetpub on your hard drive( windows installation drive )
-  6.Open the Inetpub folder, and find a folder named wwwroot
+  On the Start menu, click Settings and select Control Panel
+  Double-click Add or Remove Programs
+  Click Add/Remove Windows Components
+  Install Internet Information Services (IIS)
+  Look for a new folder called Inetpub on your hard drive( windows installation drive )
+  Open the Inetpub folder, and find a folder named wwwroot
   7. Download and extract the following file
       https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view
   8. Copy the contents from www.w3schools.com folder to wwwroot folder ( just copy the contents of the folder not the folder)
