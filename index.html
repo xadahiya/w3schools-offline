@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>W3schools-offline by xadahiya</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>W3schools-offline</h1>
+        <h2>OFFLINE version of W3Shools. W3Schools is a web developer information website, with tutorials and references relating to web development topics such as HTML, CSS, JavaScript, PHP, SQL, and JQuery. The site provides a reference manual covering many aspects of web programming.</h2>
+        <a href="https://github.com/xadahiya/w3schools-offline" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="offline-version-of-w3shools" class="anchor" href="#offline-version-of-w3shools" aria-hidden="true"><span class="octicon octicon-link"></span></a>Offline version of W3Shools.</h1>
+
+<p>W3Schools is a web developer information website, with tutorials and references relating to web development topics such as
+HTML, CSS, JavaScript, PHP, SQL, and JQuery. The site provides a reference manual covering many aspects of web programming.</p>
+
+<h1>
+<a id="ubuntu-instructions" class="anchor" href="#ubuntu-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ubuntu Instructions</h1>
+
+<p>You need to setup an Apache server as w3schools use #asp engine, which cannot be rendered directly by the browser.</p>
+
+<p>Creating server for ASP.NET applications in Ubuntu using Modmono
+  ModMono is an Apache module which provides ASP.NET support for Apache web server. We will be using Apache as an        alternative for Microsoft’s IIS in Windows.</p>
+
+<p># Installation
+  Here is a nice tutorial to setting up the server, just follow its #installation part          <a href="https://ubuntuexperiment.wordpress.com/2009/01/29/running-aspnet-applications-in-ubuntu-using-modmono/">https://ubuntuexperiment.wordpress.com/2009/01/29/running-aspnet-applications-in-ubuntu-using-modmono/</a></p>
+
+<p># Adding the offline website
+  We are going to create a site called W3schools. But first we need to create a configuration file for this site inside    the directory “etc/apache2/sites-available/”. To do this, execute the following command:</p>
+
+<p>sudo nautilus /etc/apache2/sites-available/ </p>
+
+<p>This will open the directory in Nautilus. Now right-click inside the window and create a new empty file and name it “W3schools.conf”. Then open the file using a text editor and paste the following text inside it, save and close.</p>
+
+<pre><code>Alias /W3schools "/var/www/W3schools"
+AddMonoApplications default "/W3schools:/var/www/W3schools"
+&lt;Location /W3schools&gt;
+SetHandler mono
+&lt;/Location&gt;
+</code></pre>
+
+<p>You need to change the server root directory for W3schools to successfully work.
+    Run the command </p>
+
+<pre><code>sudo gedit /etc/apache2/sites-available/000-default.conf
+</code></pre>
+
+<p>and change the following line to what you want:</p>
+
+<pre><code>DocumentRoot /var/www/html to /var/www/W3schools
+</code></pre>
+
+<p>Also edit apache2.conf to do so run 
+    sudo gedit /etc/apache2/apache2.conf</p>
+
+<pre><code>and find this
+  &lt;Directory /var/www/html/&gt;
+  Options Indexes FollowSymLinks
+  AllowOverride None
+  Require all granted
+  &lt;/Directory&gt;
+</code></pre>
+
+<p>and change /var/www/html to your preferred directory( /var/www/W3schools )</p>
+
+<p>Now inside Nautilus, browse to /var/www/ directory and create a new folder called “W3schools”</p>
+
+<p>2.Download and extract the zip file from the link below:</p>
+
+<p><a href="https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view?usp=sharing">https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view?usp=sharing</a></p>
+
+<p>Then come the final steps where we enable the site and restart Apache one last time:</p>
+
+<pre><code>a2ensite Ubuntu
+sudo /etc/init.d/apache2 restart
+</code></pre>
+
+<p>That’s it! Now open your web browser and point to:
+http://localhost/W3schools/index.html</p>
+
+<h1>
+<a id="windows-instructions" class="anchor" href="#windows-instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows instructions</h1>
+
+<h1>
+<a id="part-1" class="anchor" href="#part-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>part 1</h1>
+
+<ol>
+<li><p>On the Start menu, click Settings and select Control Panel</p></li>
+<li><p>Double-click Add or Remove Programs</p></li>
+<li><p>Click Add/Remove Windows Components</p></li>
+<li><p>Install Internet Information Services (IIS)</p></li>
+<li><p>Look for a new folder called Inetpub on your hard drive( windows installation drive )</p></li>
+<li><p>Open the Inetpub folder, and find a folder named wwwroot</p></li>
+</ol>
+
+<h1>
+<a id="part-2" class="anchor" href="#part-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>part 2</h1>
+
+<ol>
+<li>Download and extract the following file
+  <a href="https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view">https://drive.google.com/file/d/0BxNDMvWYfeVEOUpOU1cwSndfVFU/view</a>
+</li>
+<li>Copy the contents from the folder <a href="http://www.3schools.com">www.3schools.com</a> to wwwroot folder ( just copy the contents of the folder not the folder)</li>
+<li>On the Start menu, find and open Internet Information Services (IIS)</li>
+<li>Find Default Web Site under sites on the left side</li>
+<li>Select the MIME type</li>
+<li>Add new from the right side</li>
+<li>Set File name extenstion to .asp and MIME type to text/html</li>
+<li>Save and exit</li>
+<li>That’s it! Now open your web browser and point to: http://localhost/index.html</li>
+</ol>
+
+<h1>
+<a id="enjoy" class="anchor" href="#enjoy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Enjoy!!!</h1>
+
+<h1>
+<a id="credits---w3schoolscom" class="anchor" href="#credits---w3schoolscom" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits - W3schools.com</h1>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/xadahiya/w3schools-offline/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/xadahiya/w3schools-offline/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/xadahiya/w3schools-offline"></a> is maintained by <a href="https://github.com/xadahiya">xadahiya</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
