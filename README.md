@@ -1,6 +1,4 @@
-# w3schools-offline
-
-#OFFLINE version of W3Shools.
+#Offline version of W3Shools.
 W3Schools is a web developer information website, with tutorials and references relating to web development topics such as
 HTML, CSS, JavaScript, PHP, SQL, and JQuery. The site provides a reference manual covering many aspects of web programming.
 
@@ -67,17 +65,17 @@ http://localhost/W3schools/index.html
 #Windows instructions
 
 #part 1
-On the Start menu, click Settings and select Control Panel
+1. On the Start menu, click Settings and select Control Panel
 
-Double-click Add or Remove Programs
+2. Double-click Add or Remove Programs
 
-Click Add/Remove Windows Components
+3. Click Add/Remove Windows Components
 
-Install Internet Information Services (IIS)
+4. Install Internet Information Services (IIS)
 
-Look for a new folder called Inetpub on your hard drive( windows installation drive )
+5. Look for a new folder called Inetpub on your hard drive( windows installation drive )
 
-Open the Inetpub folder, and find a folder named wwwroot
+6. Open the Inetpub folder, and find a folder named wwwroot
 
 #part 2
 
